@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import FeaturedDestination from '../components/FeaturedDestination'
 import Exclusiveoffers from '../components/Exclusiveoffers'
 import Testimonials from '../components/Testimonials'
+import Newsletter from '../components/Newsletter'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
     <FeaturedDestination/>
     <Exclusiveoffers/>
     <Testimonials/>
+    <Newsletter/>
     </>
   )
 }

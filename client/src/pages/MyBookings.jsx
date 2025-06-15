@@ -3,6 +3,7 @@ import Title from "../components/Title"
 import { assets, userBookingsDummyData } from '../assets/assets'
 
 function MyBookings() {
+  // eslint-disable-next-line no-unused-vars
   const [bookings, setBookings] = useState(userBookingsDummyData)
   
   return (

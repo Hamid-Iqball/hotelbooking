@@ -1,3 +1,4 @@
+/* eslint-disable no-constant-binary-expression */
 import React from 'react'
 import Navbar from './components/Navbar'
 import { Route, Routes, useLocation } from 'react-router-dom'
@@ -6,6 +7,7 @@ import Footer from './components/Footer'
 import AllRooms from './pages/AllRooms'
 import RoomDetails from './pages/RoomDetails'
 import MyBookings from './pages/MyBookings'
+import HotelReg from './components/HotelReg'
 
 
 
@@ -16,6 +18,7 @@ function App() {
   return (
     <div>
      {!isOwnerPath && <Navbar/>}
+     {false && <HotelReg/>}
      <div className='min-h-[70vh]'>
     <Routes>
       <Route path='/' element={<Home/>} />
